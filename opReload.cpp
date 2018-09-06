@@ -8,6 +8,15 @@ using namespace std;
 与其他函数一样，重载运算符有一个返回类型和一个参数列表。 
 
 Box operator+(const Box&);
+
+不可重载运算符
+成员访问运算符  .
+成员指针访问运算符 .*, ->*
+域运算符 ::
+长度运算符 sizeof
+条件运算符 ? : 
+预处理运算符 #
+ 
 */
 
 class Box {
